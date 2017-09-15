@@ -1,0 +1,10 @@
+# Build output
+bin/
+obj/
+
+# Artifacts of the IDE and build
+*.sln.ide/
+packages/
+*.suo
+*.user
+*.vs
