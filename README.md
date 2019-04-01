@@ -45,3 +45,11 @@ public class Settings : ApplicationSettingsBase
 ## Install
 
 The CSP is avaible as nuget.
+
+## References
+
+* [LFSP source]{https://github.com/Microsoft/referencesource/tree/master/System/sys/system/configuration}
+* [Custom Settings Provider in .NET 2.0]{http://sellsbrothers.com/public/writing/dotnet2customsettingsprovider.htm}
+* [Portable Settings Provider]{https://github.com/crdx/PortableSettingsProvider}
+* [Chuck Rostance Settings Provider Implementation at StackOverflow]{https://stackoverflow.com/questions/2265271/custom-path-of-the-user-config}
+* [MSDN SettingsProvide FAQ]{https://blogs.msdn.microsoft.com/rprabhu/2005/06/29/client-settings-faq/}

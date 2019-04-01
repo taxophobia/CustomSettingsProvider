@@ -338,7 +338,14 @@
 
             if (string.IsNullOrEmpty(innerContent))
             {
-                return property.DefaultValue.ToString();
+                if (property.DefaultValue == null)
+                {
+                    return string.Empty;
+                }
+                else
+                {
+                    return property.DefaultValue.ToString();
+                }
             }
             else
             {
